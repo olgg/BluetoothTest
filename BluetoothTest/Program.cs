@@ -66,21 +66,6 @@ namespace BluetoothTest
 			else
 				Console.WriteLine("Bluetooth устройств не обнаружено.");
 
-			//bool inRange;
-
-			//Guid fakeUuid = new Guid("{F13F471D-47CB-41d6-9609-BAD0690BF891}"); // A specially created value, so no matches.
-			//BluetoothAddress addres = new BluetoothAddress(607492261);
-			//BluetoothDeviceInfo device = new BluetoothDeviceInfo(addres);
-			//try
-			//{
-			//	ServiceRecord[] records = device.GetServiceRecords(fakeUuid);
-			//	Debug.Assert(records.Length == 0, "Why are we getting any records?? len: " + records.Length);
-			//	inRange = true;
-			//}
-			//catch (SocketException)
-			//{
-			//	inRange = false;
-			//}
 			Console.ReadLine();
 		}
 	}
